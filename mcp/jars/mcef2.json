@@ -1,0 +1,259 @@
+{
+    "1.20": {
+		"platforms": {
+			"linux64": {
+				"@cef.pak.gz":                  "587d8fdf66f8ca023691f5c014beeb672d190f7a",
+				"cef_100_percent.pak":          "bda083ff73b346702b835edd8d691dd3e3fe6d64",
+				"cef_200_percent.pak":          "aa92f820ebbaf413bb630eefd21480b4320bf1a4",
+				"@cef_extensions.pak.gz":       "dc305c479daf940121c1c19f8cbee98251b8b452",
+				"@chrome-sandbox.gz":           "8727e986eda4c96ba1f0d576c0b4bba719d428a9",
+				"@devtools_resources.pak.gz":   "6ad0dae2b8216f65fa451f9589ab4ea8147f3690",
+				"@icudtl.dat.gz":               "5a9883dbeb5314a98e7ab5326f9868e78ba387dc",
+				"jcef_helper":                  "f8524fd8a675350f3394bf3955ca9ecc54b3d454",
+				"@libcef.so.gz":                "3b6573cae40940e9892537b3c13ccbd456ff5d12",
+				"@libEGL.so.gz":                "dda8ba421bb0db188ee3a7b8b88e443690dff2f1",
+				"@libGLESv2.so.gz":             "b70cefdeac1be8617d6091f22527233c4b4de5f6",
+				"@libjcef.so.gz":               "adde1cd888dcff31531eeb0c9df99b17016a6312",
+				"natives_blob.bin":             "427b4da3bd619d85381c36d61daf2ce392e07909",
+				"snapshot_blob.bin":            "cc0ce4f9ca7aa15335f3545af9e2a3e3165275a8",
+				"@swiftshader/libEGL.so.gz":    "cdcc76ac8220fe489c244d17c65cc65101c02461",
+				"@swiftshader/libGLESv2.so.gz": "0c67b4040c3ef6d1db91110df3856f01013101f7",
+				"v8_context_snapshot.bin":      "a7adcb9632ccdae3d2464e404745f03a25a59044",
+				"locales.zip":                  "9ddf14c76ca7e97211901d2d393d0e16b69dfc6e"
+			},
+			"shared": {}
+		},
+		
+		"extract": [ "locales.zip" ]
+    },
+	"1.11": {
+		"platforms": {
+			"win64": {
+				"chrome_elf.dll":                "435f81b584bd657776afb30063fc11808fc8a81a",
+				"@d3dcompiler_47.dll.gz":        "612e6f443d927330b9b8ac13cc4a2a6b959cee48",
+				"jcef.dll":                      "906174fec9f8adb65d0662df91b0749277d091e4",
+				"jcef_helper.exe":               "9e618453381308bee6d29fc9a5700d5d57aae411",
+				"@libcef.dll.gz":                "0d6bf4c3210712a00b2a836a4f4ef22bada96bf5",
+				"libEGL.dll":                    "f7351fc5f5ba09736663492025aa4cfc74ec4d8f",
+				"@libGLESv2.dll.gz":             "3c46612aea6fe31147f27ce1524784fc74bbd224",
+				"swiftshader/libEGL.dll":        "59fe251c77b605ad61842aa8516cfcebb2f8336c",
+				"@swiftshader/libGLESv2.dll.gz": "b6a048b4be728bef74f8fbfea80c3d1b1c25aeeb",
+				"v8_context_snapshot.bin":       "0fe4a34108c34e4ec2e201ddffbcc64ed4583139",
+				"snapshot_blob.bin":             "5eae14c9d7497efb22b84c0e789fe68b1833a23c",
+				"locales.zip":                   "0dace916a4f65d7560b26d763aee5f7fc959cc47"
+			},
+
+			"win32": {
+				"chrome_elf.dll":                "9921d2aefcf89f8b874479925b577cad92211c93",
+				"@d3dcompiler_47.dll.gz":        "e5219dc55dcd6b8643e3920ad21d0640fd714383",
+				"jcef.dll":                      "1b765b4bb3424f144f3b4f4d15c3db30444d5f37",
+				"jcef_helper.exe":               "1e132958a16bb140c68755c28e8a5f73f1c7fbd1",
+				"@libcef.dll.gz":                "107051e9b3cb5af084730d18ebb7849f75d86169",
+				"libEGL.dll":                    "65483f6da4cb06984cca925ec545f5dfcbae6f61",
+				"@libGLESv2.dll.gz":             "1d21c35469a58bff9afbdab3b7eb02212a1b91f3",
+				"swiftshader/libEGL.dll":        "7638ec6cb33b2e7db5433cccf4df97ff0d017f96",
+				"@swiftshader/libGLESv2.dll.gz": "4a744c485e2287afb0d81660fb35e8e843c7d4e2",
+				"v8_context_snapshot.bin":       "769531cc83b6d5dd9abfecfa4c2d0c4128bf42f2",
+				"snapshot_blob.bin":             "16732f4939f4c8f4be53c0c0941259bebde42070",
+				"locales.zip":                   "a1b84da1f90e8002142baeb34ebf97f4b5c5da13"
+			},
+			
+			"shared": {
+				"@cef.pak.gz":                "e8e29489b2e1c2141ef3eb34071cfddf0310d090",
+				"cef_100_percent.pak":        "71d0d8bef69a2f6ca16b41da7e16fbb3437624a9",
+				"cef_200_percent.pak":        "c0f27123d7712c30097ff04f99bf0dcff2f0a585",
+				"@cef_extensions.pak.gz":     "5a5b783e9ae47bbff561feacc50a63a7fc145fa4",
+				"@devtools_resources.pak.gz": "01b9d0cf34eab6d171a819c0a6a694b8b499702e",
+				"@icudtl.dat.gz":             "5a9883dbeb5314a98e7ab5326f9868e78ba387dc",
+				"natives_blob.bin":           "427b4da3bd619d85381c36d61daf2ce392e07909"
+			}
+		},
+		
+		"extract": [ "locales.zip" ]
+	},
+	"0.9": {
+		"platforms": {
+			"win64": {
+				"d3dcompiler_43.dll": "98be17e1d324790a5b206e1ea1cc4e64fbe21240",
+				"d3dcompiler_47.dll": "2a1f772b5f1a6c30510df574bfbca005f41a24f3",
+				"jcef.dll": "7577e35ab70d6fa523a0995092d48fdd14ec597c",
+				"jcef_helper.exe": "609b11366d1e9edc9e6a387a7577f54189e48db6",
+				"@libcef.dll.gz": "5b29837a5fee33582a684abfd382e711db7b08bc",
+				"libEGL.dll": "95a9e31c8102c7877f8da899bfdcef3fd5932b59",
+				"libGLESv2.dll": "6f26c2a4d06a16cf41176d4e60e968bfa08ddcf6",
+				"locales.zip": "eb6dae8995a8225b66ed9d7b7d3743b1e3106c6c",
+				"snapshot_blob.bin": "6458122ac7e130f92d877cf9a1395ee92bdc7aa1"
+			},
+			
+			"win32": {
+				"d3dcompiler_43.dll": "98be17e1d324790a5b206e1ea1cc4e64fbe21240",
+				"d3dcompiler_47.dll": "42093731a190922774957f73231520fd635ac795",
+				"jcef.dll": "3f53c76ea9462c9029a79119b7ed2a23e44fbe28",
+				"jcef_helper.exe": "37cc72934963ec3d2f80394969ae829511869fdf",
+				"@libcef.dll.gz": "247aba206c2884beb8b7314258b527467913a0d3",
+				"libEGL.dll": "20b30d677cd458124503e78011607786a1dca033",
+				"libGLESv2.dll": "6d73bea7e3f6e370c9772cd95b716402ededdb7b",
+				"locales.zip": "f32ce8aeea0e5671bf7071b08f9935efa986fccc",
+				"snapshot_blob.bin": "840d96545c24916f9f58cf6c098e7ddc9f52d3e0"
+			},
+			
+			"shared": {
+				"cef.pak": "229dd3682dda8258497f342319cdbec9ff35bc33",
+				"cef_100_percent.pak": "e14361db195acf3a6676de3c25a2f81ac3ab67b3",
+				"cef_200_percent.pak": "3ef18057982b409db394046f7c5d37f7985deaf7",
+				"cef_extensions.pak": "7d9655b90f019b70452a50e51c905918f5767f91",
+				"natives_blob.bin": "e9a4573d81d20b6e19a9747499863883172179b9",
+				"icudtl.dat": "7c401afe79968c4e8ba632e8b3e8d7927d9143bf",
+				"devtools_resources.pak": "dd4c6417d1c058a7e91b83aa945650e56e609a14"
+			}
+		},
+		
+		"extract": [ "locales.zip" ]
+	},
+
+	"0.8": {
+		"platforms": {
+			"win64": {
+				"d3dcompiler_43.dll": "98be17e1d324790a5b206e1ea1cc4e64fbe21240",
+				"d3dcompiler_47.dll": "2a1f772b5f1a6c30510df574bfbca005f41a24f3",
+				"jcef.dll": "7577e35ab70d6fa523a0995092d48fdd14ec597c",
+				"jcef_helper.exe": "609b11366d1e9edc9e6a387a7577f54189e48db6",
+				"@libcef.dll.gz": "5b29837a5fee33582a684abfd382e711db7b08bc",
+				"libEGL.dll": "95a9e31c8102c7877f8da899bfdcef3fd5932b59",
+				"libGLESv2.dll": "6f26c2a4d06a16cf41176d4e60e968bfa08ddcf6",
+				"locales.zip": "eb6dae8995a8225b66ed9d7b7d3743b1e3106c6c",
+				"snapshot_blob.bin": "6458122ac7e130f92d877cf9a1395ee92bdc7aa1"
+			},
+			
+			"win32": {
+				"d3dcompiler_43.dll": "98be17e1d324790a5b206e1ea1cc4e64fbe21240",
+				"d3dcompiler_47.dll": "42093731a190922774957f73231520fd635ac795",
+				"jcef.dll": "3f53c76ea9462c9029a79119b7ed2a23e44fbe28",
+				"jcef_helper.exe": "37cc72934963ec3d2f80394969ae829511869fdf",
+				"@libcef.dll.gz": "247aba206c2884beb8b7314258b527467913a0d3",
+				"libEGL.dll": "20b30d677cd458124503e78011607786a1dca033",
+				"libGLESv2.dll": "6d73bea7e3f6e370c9772cd95b716402ededdb7b",
+				"locales.zip": "f32ce8aeea0e5671bf7071b08f9935efa986fccc",
+				"snapshot_blob.bin": "840d96545c24916f9f58cf6c098e7ddc9f52d3e0"
+			},
+			
+			"shared": {
+				"cef.pak": "229dd3682dda8258497f342319cdbec9ff35bc33",
+				"cef_100_percent.pak": "e14361db195acf3a6676de3c25a2f81ac3ab67b3",
+				"cef_200_percent.pak": "3ef18057982b409db394046f7c5d37f7985deaf7",
+				"cef_extensions.pak": "7d9655b90f019b70452a50e51c905918f5767f91",
+				"natives_blob.bin": "e9a4573d81d20b6e19a9747499863883172179b9",
+				"icudtl.dat": "7c401afe79968c4e8ba632e8b3e8d7927d9143bf",
+				"devtools_resources.pak": "dd4c6417d1c058a7e91b83aa945650e56e609a14"
+			}
+		},
+		
+		"extract": [ "locales.zip" ]
+	},
+	
+	"0.7": {
+		"platforms": {
+			"win32": {
+				"cef.pak": "35e7111a7d6fdd81cb6fcfc87497600cdab7456b",
+				"cef_100_percent.pak": "2ee3e69b1ff8aa82ef4cae62975aac4d90290222",
+				"cef_200_percent.pak": "69b1d9f37b52159904c843f031d1e50c3ab0ab1c",
+				"d3dcompiler_43.dll": "98be17e1d324790a5b206e1ea1cc4e64fbe21240",
+				"d3dcompiler_46.dll": "9dcd5b3a05b4fd1c71198fc11aa0f8f569a3e21d",
+				"devtools_resources.pak": "842499621764622b33a2bcd55fc131925f98f310",
+				"ffmpegsumo.dll": "53b4650870481c5b98e0e5a9e10164298597eb5a",
+				"icudtl.dat": "1ecbe1bd741c7101c72361d1d3dab5ad9056c2a1",
+				"jcef.dll": "df7e928433c2adae617c7f0042c9c19a525262f5",
+				"jcef_helper.exe": "eff10c426131809ff676b8826a87dd2f5e82b028",
+				"libcef.dll": "4edf7494c42c4eaa69e9bafa70badef117579b2d",
+				"libEGL.dll": "d0385658e88dca2df63b1aa39fe6506ccc93e791",
+				"libGLESv2.dll": "45da37ad25345fadad8d9228fda9bed1d24fcb03",
+				"locales.zip": "fbe947b00b558949cda51462430bfdff1d30547e",
+				"pdf.dll": "ff19418182dad96cd43e485f488010855196c6be"
+			},
+			
+			"win64": {
+				"cef.pak": "35e7111a7d6fdd81cb6fcfc87497600cdab7456b",
+				"cef_100_percent.pak": "2ee3e69b1ff8aa82ef4cae62975aac4d90290222",
+				"cef_200_percent.pak": "69b1d9f37b52159904c843f031d1e50c3ab0ab1c",
+				"d3dcompiler_43.dll": "98be17e1d324790a5b206e1ea1cc4e64fbe21240",
+				"d3dcompiler_46.dll": "9ced490f112005df9576d16ee06d8004db44afbe",
+				"devtools_resources.pak": "842499621764622b33a2bcd55fc131925f98f310",
+				"ffmpegsumo.dll": "19a5e8a58c2a26a1a4039614caf10b06421a3b00",
+				"icudtl.dat": "1ecbe1bd741c7101c72361d1d3dab5ad9056c2a1",
+				"jcef.dll": "eb2196dbaee4fc88bbe78ca1d2b2671d57795111",
+				"jcef_helper.exe": "d96ad53efa97d8357c5f2ddda47a4d396f8f8076",
+				"libcef.dll": "d1ea4e67de9572e65cea04eaec809ff1dce9d9e0",
+				"libEGL.dll": "505cf7e18d0fea964b0cc80aeef4a69701dc2a80",
+				"libGLESv2.dll": "ff159e7940bbfed3e9d80771dafba0449ffdd7f7",
+				"pdf.dll": "69ca1429ade0be98ec253c5f58b76a8943b0dad4",
+				"locales.zip": "d541cbec7113ec14d3a7f79b10be67e27ac37cee"
+			}
+		},
+		
+		"extract": [ "locales.zip" ]
+	},
+	
+	"0.6": {
+		"platforms": {
+			"win32": {
+				"cef.pak": "35e7111a7d6fdd81cb6fcfc87497600cdab7456b",
+				"cef_100_percent.pak": "2ee3e69b1ff8aa82ef4cae62975aac4d90290222",
+				"cef_200_percent.pak": "69b1d9f37b52159904c843f031d1e50c3ab0ab1c",
+				"d3dcompiler_43.dll": "98be17e1d324790a5b206e1ea1cc4e64fbe21240",
+				"d3dcompiler_46.dll": "9dcd5b3a05b4fd1c71198fc11aa0f8f569a3e21d",
+				"devtools_resources.pak": "842499621764622b33a2bcd55fc131925f98f310",
+				"ffmpegsumo.dll": "53b4650870481c5b98e0e5a9e10164298597eb5a",
+				"icudtl.dat": "1ecbe1bd741c7101c72361d1d3dab5ad9056c2a1",
+				"jcef.dll": "df7e928433c2adae617c7f0042c9c19a525262f5",
+				"jcef_helper.exe": "eff10c426131809ff676b8826a87dd2f5e82b028",
+				"libcef.dll": "4edf7494c42c4eaa69e9bafa70badef117579b2d",
+				"libEGL.dll": "d0385658e88dca2df63b1aa39fe6506ccc93e791",
+				"libGLESv2.dll": "45da37ad25345fadad8d9228fda9bed1d24fcb03",
+				"locales.zip": "fbe947b00b558949cda51462430bfdff1d30547e",
+				"pdf.dll": "ff19418182dad96cd43e485f488010855196c6be"
+			},
+			
+			"win64": {
+				"cef.pak": "35e7111a7d6fdd81cb6fcfc87497600cdab7456b",
+				"cef_100_percent.pak": "2ee3e69b1ff8aa82ef4cae62975aac4d90290222",
+				"cef_200_percent.pak": "69b1d9f37b52159904c843f031d1e50c3ab0ab1c",
+				"d3dcompiler_43.dll": "98be17e1d324790a5b206e1ea1cc4e64fbe21240",
+				"d3dcompiler_46.dll": "9ced490f112005df9576d16ee06d8004db44afbe",
+				"devtools_resources.pak": "842499621764622b33a2bcd55fc131925f98f310",
+				"ffmpegsumo.dll": "19a5e8a58c2a26a1a4039614caf10b06421a3b00",
+				"icudtl.dat": "1ecbe1bd741c7101c72361d1d3dab5ad9056c2a1",
+				"jcef.dll": "eb2196dbaee4fc88bbe78ca1d2b2671d57795111",
+				"jcef_helper.exe": "d96ad53efa97d8357c5f2ddda47a4d396f8f8076",
+				"libcef.dll": "d1ea4e67de9572e65cea04eaec809ff1dce9d9e0",
+				"libEGL.dll": "505cf7e18d0fea964b0cc80aeef4a69701dc2a80",
+				"libGLESv2.dll": "ff159e7940bbfed3e9d80771dafba0449ffdd7f7",
+				"pdf.dll": "69ca1429ade0be98ec253c5f58b76a8943b0dad4",
+				"locales.zip": "d541cbec7113ec14d3a7f79b10be67e27ac37cee"
+			},
+
+			"linux64": {
+				"cef_100_percent.pak": "a442628aefa628aef1ee35a071b7f9c45db617cd",
+		        "cef_200_percent.pak": "0a7a66cf596567d57833e57eaeae2f5904ec9201",
+		        "cef.pak": "7804c134a0ac52caf3cec28a7eae75547a03125d",
+		        "chrome-sandbox": "90c083edf9ac6e9037db59691f5844f217794621",
+		        "devtools_resources.pak": "4f49df1670e648dfd7c1236c1e0a559fa06fa081",
+		        "icudtl.dat": "22c8b378d1695e0f94ae8d52c9480eccff92f62c",
+		        "jcef_helper": "5a95eb493125c3f7bf797e673129a2b513d8f528",
+		        "libcef.so": "94c6d5cccf3158f5db8bcf2d746b7083f699e84a",
+		        "libjcef.so": "960521a1d8ced95612da2573a338ae97596f8835",
+		        "locales.zip": "3c879f079c19ef743174ef7f48f0acde7573698c",
+		        "natives_blob.bin": "d04538ee75d54587472ef1bbfe343b087e40d5fd",
+		        "snapshot_blob.bin": "b2ce2dfebad637ca9402f9f206beb49c3af902e2"
+			}
+		},
+		
+		"extract": [ "locales.zip" ]
+	},
+	
+	"latestVersions": {
+		"1.8": "0.7",
+		"1.7.10": "0.6",
+		"1.10.2": "0.9",
+		"1.12.2": "1.11"
+	}
+}
